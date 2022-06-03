@@ -1,0 +1,252 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.down{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.cascaron{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    padding: auto;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    margin: auto;
+    width: 600px;
+    height: 100px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: gray;
+}
+
+.logo{
+    width: 415px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.margen{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 42, 42);
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: "arista";
+    font-size: large;
+}
+
+#comment{
+    border-radius: 10px;
+    width: 90%;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.cuerpo{
+    background: rgb(255, 42, 42);
+    width: 73%;
+    height: auto;
+    margin: 20px 20px 0px 20px;
+    overflow: hidden;
+}
+
+.menu{
+    background-color: skyblue;
+    width: 20%;
+    height: 100%;
+    padding: auto;
+    margin: 20px 20px 20px 0px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+.menu h3{
+    background-color: yellow;
+    color: black;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    font-family: "arista";
+}
+
+.descripcion{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+.descripcion h2{
+    background-color: yellow;
+    color: black;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    font-family: "arista";
+    text-align: center;
+}
+
+.centro{
+    width: 100%;
+    height: 150px;
+    margin: -20px 0px 47px 0px;
+}
+
+.ingredientes{
+    width: 60%;
+    height: auto;
+    margin: 0px 20px 0px 0px;
+    padding: auto;
+    overflow: hidden;
+}
+
+.ingredientes h2{
+    background-color: yellow;
+    color: black;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    border-right: 3px black solid;
+    font-family: "arista";
+    text-align: center;
+}
+
+.imagen{
+    width: 35%;
+    height: 150px;
+    overflow: hidden;
+    margin: 10% 0px 0px 0px;
+    box-shadow: 0 0 0 10px rgba(255, 255, 0, 0.651),
+    0 15px 50px;
+    border: 3px black solid;
+}
+
+.imagen img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pasos{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    overflow: hidden;
+    color: black;
+}
+
+.pasos h2{
+    background-color: yellow;
+    color: black;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    font-family: "arista";
+    text-align: center;
+}
+
+.comentarios{
+    border: 3px black solid;
+    background-color: rgb(14, 94, 199);
+    width: 90%;
+    height: auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #2525bb;
+    background-color: red;
+}
+
+.titulo h3{
+    background-color:  whitesmoke;
+    color: rgb(24, 24, 131);
+    color: black;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    font-family: "arista";
+}
+
+.caja{
+    width: 80%;
+    height: auto;
+    padding: auto;
+    overflow: hidden;
+    margin: 0px 0px 0px 75px;
+}
+
+.paint{
+    width: 100%;
+    height: auto;
+}
+
+.pie{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+@font-face{
+    font-family: 'arista';
+    src: url("Fuentes/[z]\ Arista\ light.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#salida{
+    font-family: 'arista';
+    width: 90%;
+    height: 100%;
+    background-color: rgb(14, 94, 199);
+    font-size: 20px;
+    border: transparent;
+}

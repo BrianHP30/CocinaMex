@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="comentar.js"></script> <!-- Aquí estará almacenado lo del método para comentar -->
+</head>
+<body>
+    
+    
+    <div>
+        <!-- utilizaremos un label para mostrar el comentario, pero pueden utilizar 
+            cualquier cosa que permita entrada de texto -->
+        <label id="simulacionComentario">ㅤ</label> 
+        <!-- Lo que está dentro del label es un caracter vacio para que siempre esté "activo", cómo es un label
+            no se mostará nada de diseño hasta que sufra un cambio
+            (lo pueden quitar) -->
+    </div>
+
+    <br>
+
+    <textarea id="contenidoID" rows="5" cols="50"></textarea><br> <!-- Textarea en donde se escribe el comentario -->
+    <button onclick="comentar()" style="float: right">Comentar</button>  <!-- Botón para comentar -->
+
+</body>
+</html>

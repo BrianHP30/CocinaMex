@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/bg.png);
+    background-attachment: fixed;
+}
+
+.ctr{
+    width: 70%;
+    margin: auto;
+}
+
+.Cuerpo{
+    background-color: whitesmoke;
+}
+
+
+header{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+    transition: all 0.4s;
+}
+
+.down{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.ancho{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: gray;
+    width: 600px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo{
+    margin: auto;
+    width: 415px;
+    height: 100%;
+}
+
+.logo a img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.recetas{
+    border-radius: 30px;
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(255, 42, 42);
+    overflow: hidden;
+}
+
+.xd{
+    border-bottom: 3px rgb(121, 31, 31) solid;
+    font-family: "Arista";
+    border-radius: 30px;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 8px;
+}
+
+.xd ul{
+    display: flex;
+    padding: 0;
+}
+
+.xd li{
+    width: 100%;
+    list-style: none;
+}
+
+.xd p {
+    color: black;
+    font-size: 38px;
+    text-decoration: none;
+}
+
+.container{
+    border-radius: 30px;
+    margin: auto;
+    width: 95%;
+    height: 300px;
+    box-shadow: 0 0 0 10px rgb(121, 31, 31),
+                0 15px 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.slider{
+    display: flex;
+    width: 600%;
+    margin-left: -100%;
+}
+
+.sources{
+    width: 100%;
+}
+
+.slider_img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.btm{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.502);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    border: 3px black solid;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btm:hover{
+    background-color: white;
+}
+
+.btm--R{
+    right: 10px;
+}
+
+.btm--L{
+    left: 10px;
+}
+
+@font-face {
+    font-family: 'Arista';
+    src: url('Fuentes/[z]\ Arista.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.titul{
+    text-align: center;
+    font-family: Arista;
+    font-size: 40px;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    background-color: white;
+}
+
+.hola{
+    width: 100%;
+    height: 64%;
+}
+
+.div1{
+    margin: auto;
+    width: 90%;
+    height: 33%;
+    display: flex;
+}
+
+.receta1{
+    width: 50%;
+    height: 100%;
+}
+
+.conteiner1{
+    margin: auto;
+    background-color: beige;
+    width: 90%;
+    height: 100%;
+    background-image: url("img/Placeholder1.png");
+    background-size: 100% 100%;
+    border-radius: 30px;
+    border: 5px black solid;
+}
+
+.receta1 a{
+    text-decoration: none;
+}
+
+.conteiner2{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url("img/Placeholder2.jpg");
+    background-size: 100% 100%;
+    border-radius: 30px;
+    border: 5px black solid;
+}
+
+.conteiner3{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url("img/Placeholder3.jpg");
+    background-size: 100% 100%;
+    border-radius: 30px;
+    border: 5px black solid;
+}
+
+.conteiner4{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url("img/Placeholder4.jpg");
+    background-size: 100% 100%;
+    border-radius: 30px;
+    border: 5px black solid;
+}
+
+.conteiner5{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url("img/Placeholder5.jpg");
+    background-size: 100% 100%;
+    border-radius: 30px;
+    border: 5px black solid;
+}
+
+.conteiner6{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-image: url("img/Placeholder6.png");
+    background-size: 100% 100%;
+    border-radius: 30px;
+    border: 5px black solid;
+}
+
+.info1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+    opacity: 0;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+
+.info1 p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px black,
+                0 10px 15px black;
+    font-family: Arista;
+}
+
+.Cinfo{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.conteiner1:hover .info1{
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.conteiner2:hover .info1{
+    opacity: 1;
+}
+
+.conteiner3:hover .info1{
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.conteiner4:hover .info1{
+    opacity: 1;
+}
+
+.conteiner5:hover .info1{
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.conteiner6:hover .info1{
+    opacity: 1;
+}
+
